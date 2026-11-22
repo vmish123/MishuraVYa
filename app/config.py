@@ -1,6 +1,7 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
+# Конфигурация приложения
 class Settings(BaseSettings):
     app_name: str = "My FastAPI Lab"
     admin_email: str
